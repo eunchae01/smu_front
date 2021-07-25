@@ -1,0 +1,14 @@
+.comBtn {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 7%;
+}
+
+.comBox {
+  width: 750px;
+  height: 500px;
+  background-color: lightblue;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 7%;
+}

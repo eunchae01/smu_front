@@ -1,0 +1,52 @@
+.lineBtnbox {
+  position: absolute;
+  /* margin-top: 300px; */
+  margin-left: 25%;
+}
+
+.lineBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: #008cba;
+  border: none;
+  cursor: pointer;
+}
+
+.lineBtn:active {
+  background-color: #111;
+}
+
+.time {
+  position: absolute;
+  display: inline;
+  padding-left: 25%;
+  margin-top: 50px;
+  background-color: lightgray;
+  width: 75%;
+}
+
+.timeBtn {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: #144e88;
+  border: none;
+}
+
+.printChamp {
+  width: 67%;
+  height: 200px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: 1600px;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  background-color: lightgray;
+}

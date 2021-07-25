@@ -1,0 +1,38 @@
+.pick {
+  margin-bottom: 5px;
+  width: 300px;
+  height: 60px;
+}
+
+.Linepic {
+  background-color: cornflowerblue;
+  width: 60px;
+  height: 60px;
+}
+
+.pack {
+  margin-top: -80px;
+}
+
+.texts {
+  /* position: absolute; */
+  width: 200px;
+  height: 20px;
+  margin-left: 70px;
+  margin-top: -60px;
+  float: left;
+}
+
+.pickrate {
+  float: left;
+  margin-left: 70px;
+  margin-top: -30px;
+  margin-bottom: 70px;
+}
+
+.wonrate {
+  float: left;
+  margin-left: 30px;
+  margin-top: -30px;
+  margin-bottom: 70px;
+}

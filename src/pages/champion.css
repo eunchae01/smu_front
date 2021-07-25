@@ -1,0 +1,45 @@
+.champBox {
+  width: 750px;
+  height: 500px;
+  background-color: lightblue;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 7%;
+}
+
+.champInput {
+  margin-left: 15%;
+}
+
+/* 검색창 */
+.cpSearch {
+  margin-top: 300px;
+  margin-left: 60%;
+  position: absolute;
+  background-color: lightgray;
+}
+.cpInput {
+  width: 400px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border: none;
+  background-color: white;
+  color: rgb(49, 49, 49);
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.cpBtn {
+  width: 70px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  background-color: #008cba;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,504 @@
+.UserName {
+  padding-left: 200px;
+  background-color: lightgray;
+  width: 350px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 35px;
+  float: left;
+}
+
+.getNew {
+  /* position: absolute; */
+  /* margin-top: -850px; */
+  /* padding-left: 300px; */
+  /* float: left; */
+  background-color: lightgray;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.graph {
+  /* position: absolute; */
+  padding-top: 50px;
+  margin-left: 200px;
+  width: 1300px;
+  height: 150px;
+  background-color: white;
+  float: left;
+}
+
+.short {
+  /* position: absolute; */
+  padding-top: 250px;
+  padding-left: 200px;
+  /* padding-bottom: 900px; */
+  /* padding-right: 1140px;
+  width: 350px;
+  height: 300px; */
+  background-color: lightgray;
+}
+
+.pic {
+  margin-top: 25px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  float: left;
+}
+
+.right {
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 150px;
+  height: 200px;
+  background-color: aliceblue;
+  /* float: right; */
+}
+
+.searchTop {
+  /* position: absolute; */
+  margin-top: -200px;
+  margin-left: 575px;
+  margin-bottom: 50px;
+  width: 925px;
+  height: 160px;
+  /* float: left; */
+}
+
+.pieGraph {
+  width: 300px;
+  height: 160px;
+  background-color: aliceblue;
+  float: left;
+}
+
+.mostPick {
+  /* margin-top: -160px; */
+  /* margin-left: 300px; */
+  width: 325px;
+  height: 160px;
+  background-color: aliceblue;
+  float: left;
+}
+
+.mostPosition {
+  /* margin-top: -160px; */
+  /* margin-left: 625px; */
+  width: 300px;
+  height: 160px;
+  background-color: aliceblue;
+  float: left;
+}
+
+.list {
+  /* position: absolute; */
+  /* margin-top: -425px; */
+  margin-left: 575px;
+  width: 925px;
+  height: 200px;
+  background-color: aliceblue;
+  margin-bottom: 50px;
+}
+
+.allInfo {
+  /* position: relative; */
+  /* margin-top: -425px; */
+  /* margin-left: 575px; */
+  background-color: aquamarine;
+  height: 200px;
+  float: left;
+}
+
+.allLeft {
+  background-color: aliceblue;
+  width: 75px;
+  height: 145px;
+  float: left;
+  padding-top: 55px;
+  text-align: center;
+}
+
+.mininfo {
+  background-color: aliceblue;
+  width: 185px;
+  height: 150px;
+  float: left;
+}
+
+.minipic {
+  width: 70px;
+  height: 70px;
+  background-color: cornflowerblue;
+  float: left;
+  border-radius: 90px;
+}
+
+.spells {
+  width: 40px;
+  height: 80px;
+  background-color: aliceblue;
+  float: left;
+  /* margin-left: 5px; */
+}
+
+.spell {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: cornflowerblue;
+  float: left;
+}
+
+.luns {
+  width: 40px;
+  height: 80px;
+  background-color: aliceblue;
+  /* margin-left: 125px; */
+  /* float: left; */
+}
+
+.lun {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: cornflowerblue;
+  float: left;
+}
+
+.champname {
+  text-align: center;
+}
+
+.score {
+  /* position: relative; */
+  /* margin-top: -425px; */
+  /* margin-left: 850px; */
+  background-color: aliceblue;
+  width: 75px;
+  height: 135px;
+  padding-top: 65px;
+  float: left;
+  text-align: center;
+}
+
+.levcs {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background-color: aliceblue;
+  padding-top: 50px;
+  text-align: center;
+  /* position: relative; */
+  /* margin-top: -425px; */
+  /* margin-left: 925px; */
+}
+
+.item {
+  width: 175px;
+  height: 150px;
+  float: left;
+  padding-top: 50px;
+  background-color: aliceblue;
+  /* position: relative; */
+  /* margin-top: -425px; */
+  /* margin-left: 1025px; */
+}
+
+.items {
+  width: 40px;
+  height: 40px;
+  background-color: cornflowerblue;
+  float: left;
+  border-radius: 10%;
+  margin: 1px;
+}
+
+.teampic {
+  width: 50px;
+  height: 200px;
+  float: left;
+  background-color: aliceblue;
+  /* position: relative;
+  margin-top: -425px; */
+}
+
+.teamPic {
+  width: 35px;
+  height: 35px;
+  background-color: cornflowerblue;
+  /* margin-left: 10px; */
+  margin-bottom: 5px;
+  float: left;
+}
+
+.teamname {
+  float: left;
+  width: 100px;
+  height: 200px;
+  background-color: aliceblue;
+}
+
+.teamName {
+  margin-bottom: 20px;
+  float: left;
+}
+
+.openbutton {
+  width: 40px;
+  height: 40px;
+  margin-top: 160px;
+  background-color: lightgray;
+}
+
+/* 상세페이지 */
+.Otitle {
+  display: flex;
+  background-color: lightgreen;
+  float: left;
+}
+
+.Otitle > div {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* float: left; */
+}
+
+.firstline {
+  width: 105px;
+  height: 60px;
+  background-color: darkcyan;
+  text-align: center;
+  float: left;
+}
+
+.Omininfo {
+  background-color: aliceblue;
+  width: 115px;
+  height: 60px;
+  float: left;
+  /* padding-top: 3px; */
+}
+
+.Ominipic {
+  width: 50px;
+  height: 50px;
+  background-color: cornflowerblue;
+  float: left;
+  border-radius: 90px;
+}
+
+.Ospells {
+  width: 25px;
+  height: 50px;
+  background-color: aliceblue;
+  float: left;
+}
+
+.Ospell {
+  border-radius: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: cornflowerblue;
+  float: left;
+}
+
+.Oluns {
+  width: 25px;
+  height: 50px;
+  background-color: aliceblue;
+  /* margin-left: 125px; */
+  float: left;
+}
+
+.Olun {
+  border-radius: 20px;
+  width: 25px;
+  height: 25px;
+  background-color: cornflowerblue;
+  float: left;
+}
+
+.Ochampname {
+  text-align: center;
+  float: left;
+}
+
+.firstline2 {
+  width: 90px;
+  height: 60px;
+  float: left;
+  background-color: darkcyan;
+}
+
+.Oteamname {
+  float: left;
+  background-color: aliceblue;
+  width: 90px;
+  height: 60px;
+}
+
+.OteamName {
+  margin-top: 20px;
+  margin-bottom: 26px;
+  float: left;
+}
+
+.firstline3 {
+  width: 50px;
+  height: 60px;
+  float: left;
+  background-color: darkcyan;
+}
+
+.Otier {
+  float: left;
+  background-color: aliceblue;
+  width: 50px;
+  height: 60px;
+}
+
+.OTier {
+  margin-top: 20px;
+  margin-bottom: 26px;
+  float: left;
+}
+
+.firstline4 {
+  width: 50px;
+  height: 60px;
+  float: left;
+  background-color: darkcyan;
+}
+
+.Okda {
+  float: left;
+  background-color: aliceblue;
+  width: 60px;
+  height: 60px;
+}
+
+.OKDA {
+  margin-top: 20px;
+  margin-bottom: 26px;
+
+  float: left;
+}
+
+.firstline5 {
+  width: 150px;
+  height: 60px;
+  float: left;
+  background-color: darkcyan;
+  text-align: center;
+}
+
+.Ograph3 {
+  float: left;
+  background-color: aliceblue;
+  width: 250px;
+  height: 60px;
+}
+
+.OGraph3 {
+  margin-top: 20px;
+  margin-bottom: 26px;
+  float: left;
+}
+
+.firstline6 {
+  width: 70px;
+  height: 60px;
+  float: left;
+  background-color: darkcyan;
+  text-align: center;
+}
+
+.Oward {
+  float: left;
+  background-color: aliceblue;
+  width: 70px;
+  height: 60px;
+}
+
+.OWard {
+  margin-top: 20px;
+  margin-bottom: 26px;
+  float: left;
+}
+
+.firstline7 {
+  width: 70px;
+  height: 60px;
+  float: left;
+  background-color: darkcyan;
+  text-align: center;
+}
+
+.Ocs {
+  float: left;
+  background-color: aliceblue;
+  width: 75px;
+  height: 60px;
+}
+
+.OCS {
+  margin-top: 20px;
+  margin-bottom: 26px;
+  float: left;
+}
+
+.firstline8 {
+  width: 340px;
+  height: 60px;
+  float: left;
+  background-color: darkcyan;
+  text-align: center;
+}
+
+.Oitem {
+  width: 330px;
+  height: 60px;
+  background-color: aliceblue;
+  float: left;
+  /* margin: 1px; */
+  padding-left: 10px;
+  /* margin-top: 3px; */
+}
+
+.OItem {
+  width: 40px;
+  height: 40px;
+  background-color: cornflowerblue;
+  float: left;
+  border-radius: 10%;
+  margin: 1px;
+  margin-top: 10px;
+}
+
+.openDragon {
+  width: 925px;
+  height: 75px;
+  background-color: lightpink;
+  display: flex;
+  /* padding-left: 50px; */
+}
+
+.monster {
+  width: 125px;
+  /* height: 75px; */
+  background-color: lightseagreen;
+}
+
+.monstermenu {
+  padding-top: 15px;
+  width: 125px;
+  background-color: lightskyblue;
+}
+
+.dragonGraph {
+  width: 550px;
+  padding-top: 15px;
+  background-color: lightsalmon;
+}
