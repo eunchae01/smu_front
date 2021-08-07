@@ -1,5 +1,5 @@
 import React from 'react';
-import Test from './searchcomponents/Test';
+import Test from '../Test';
 import Ograph from './Ograph';
 
 function Opendragon({ cat, dragon, baron, cat1, dragon1, baron1 }) {

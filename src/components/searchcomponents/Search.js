@@ -1,5 +1,5 @@
 import React from 'react';
-import './search.css';
+import '../search.css';
 import Test from './Test';
 import Info from './Info';
 import Position from '../Position';

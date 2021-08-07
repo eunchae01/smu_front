@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Input from '../components/Input';
+import Input from '../components/common/Input';
 import './home.css';
-import menu1 from '../images/menu1.jpg';
-import menu2 from '../images/menu2.jpg';
-import menu3 from '../images/menu3.jpg';
-import menu4 from '../images/menu4.jpg';
-import menu5 from '../images/menu5.jpg';
-import Test from '../components/Test';
+import menu1 from '../assets/images/menu1.jpg'
+import menu2 from '../assets/images/menu2.jpg';
+import menu3 from '../assets/images/menu3.jpg';
+import menu4 from '../assets/images/menu4.jpg';
+import menu5 from '../assets/images/menu5.jpg';
 
 class Home extends Component {
     handleCreate = (data) => {
@@ -45,7 +44,6 @@ class Home extends Component {
                         <div class='title5'>리더보드</div>
                     </div>
                 </div>
-                <Test />
             </>
         );
     }

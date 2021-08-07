@@ -1,8 +1,8 @@
 import { React, useState, useCallback } from 'react';
-import Openteam from '../Openteam';
-import Openbutton from './Openbutton';
+import Openteam from '../searchcomponents/opencomponenets/Openteam';
+import Openbutton from '../searchcomponents/opencomponenets/Openbutton';
+import ChampionRate from '../championcomponents/ChampionRate';
 
-import ChampionRate from './ChampionRate';
 function Openedhied() {
     const [clicked, setClicked] = useState(true);
 

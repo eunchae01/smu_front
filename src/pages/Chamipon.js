@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, createContext } from 'react';
 import './champion.css';
-import ChampionList from '../components/ChampionList';
+import ChampionList from '../components/championcomponents/ChampionList';
 import axios from 'axios';
 import ChampionGrapList from '../components/Graphs/ChampionGrapList';
 export const Select = createContext('');
