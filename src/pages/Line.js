@@ -4,13 +4,22 @@ import './line.css';
 function line(){
     return(
         <>
-        <div className='lineBtnbox'>
+        <div className='selectBg'>
+            <select className='select'>
+                <option value="1" >Top</option>
+                <option value="2">Mid</option>
+                <option value="3">Jungle</option>
+                <option value="4">Bottom</option>
+                <option value="5">Supporter</option>
+            </select>
+        </div>
+        {/* <div className='lineBtnbox'>
             <button className='lineBtn'>Top</button>
             <button className='lineBtn'>Mid</button>
             <button className='lineBtn'>Jungle</button>
             <button className='lineBtn'>Ad-carry</button>
             <button className='lineBtn'>Supporter</button>
-        </div>
+        </div> */}
 
         <div className='time'>
         <button className='timeBtn'>0 - 10min</button>

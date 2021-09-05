@@ -1,16 +1,21 @@
 import React, { useState, useEffect, useCallback, createContext } from 'react';
 import './champion.css';
-import ChampionList from '../components/ChampionList';
+import ChampionList from '../components/championcomponents/ChampionList';
 import axios from 'axios';
 import ChampionGrapList from '../components/Graphs/ChampionGrapList';
+import OutCome from '../components/complex/OutCome';
+import Test from '../components/searchcomponents/Test';
+
 export const Select = createContext('');
 function Chamipon() {
     const [champions, setChampions] = useState([]);
     const [championName, setchampionName] = useState('');
     const [isClicked, setClicked] = useState(0);
+    const [imageUrl, setImageUrl] = useState('');
 
     const onClick = (e) => {
         setClicked(() => e.target.id);
+        setImageUrl(() => e.target.src);   
     };
     const onChange = (e) => {
         console.log(e.target.value);
@@ -30,14 +35,7 @@ function Chamipon() {
     }, []);
 
     return (
-        <>
-            <div className='champBox'>
-                <ChampionList
-                    chamipons={champions}
-                    championName={championName}
-                    onClick={onClick}
-                />
-            </div>
+        <div>
             <div className='cpSearch'>
                 <input
                     className='cpInput'
@@ -47,14 +45,33 @@ function Chamipon() {
                 <button type='submit' className='cpBtn'>
                     검색하기
                 </button>
-
                 <div>
-                    <Select.Provider value={isClicked}>
+                    {/* <Select.Provider value={isClicked}>
                         <ChampionGrapList />
-                    </Select.Provider>
+                    </Select.Provider> */}
                 </div>
+            </div>   
+
+            <div className='backPic'>
+                <div className='champBox'>
+                    <ChampionList
+                        chamipons={champions}
+                        championName={championName}
+                        onClick={onClick}
+                        className='championBox'
+                    />
+                </div>
+
+                <img className='champPic'  src = {imageUrl}/>
+                <div className='champRate'><Test/></div>
+
+                
+
             </div>
-        </>
+
+            
+                
+        </div>
     );
 }
 
