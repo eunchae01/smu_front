@@ -63,7 +63,7 @@ function Chamipon() {
                 </div>
 
                 <img className='champPic'  src = {imageUrl}/>
-                <div className='champRate'><Test/></div>
+                <div className='champRate'><Test id = {isClicked}/></div>
 
                 
 
