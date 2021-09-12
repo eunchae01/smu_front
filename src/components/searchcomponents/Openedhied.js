@@ -1,20 +1,25 @@
-import { React, useState, useCallback } from 'react';
-import Openteam from '../searchcomponents/opencomponenets/Openteam';
-import Openbutton from '../searchcomponents/opencomponenets/Openbutton';
-import ChampionRate from '../championcomponents/ChampionRate';
+import {React,useState,useCallback} from 'react';
+import Openbutton from './opencomponenets/Openbutton';
+import ChampionRate from '../ChampionRate';
 
-function Openedhied() {
-    const [clicked, setClicked] = useState(true);
+function Openedhied(){
 
-    const onClick = useCallback(() => {
-        console.log(clicked);
-        setClicked(() => !clicked);
-    }, [clicked]);
-    return (
+    const [clicked,setClicked] = useState(true)
+
+    const onClick = useCallback(
+        () => {
+            console.log(clicked)
+            setClicked(()=> !clicked)
+        },
+        [clicked],
+    )
+
+    return(
         <div>
-            <Openbutton onClick={onClick} clicked={clicked} />
+            <Openbutton onClick= {onClick} clicked={clicked}/>
 
-            {clicked && <ChampionRate />}
+            { clicked && <ChampionRate />  }
+
         </div>
     );
 }

@@ -4,13 +4,15 @@
 
 .img-box {
   /* position: absolute; */
-  padding-top: 50px;
-  padding-left: 100px;
+  padding-top: 75px;
+  padding-left: 125px;
   background-color: lightgray;
   display: inline-flex;
+  width: 1565px;
+  height: 650px;
 }
 
-img {
+.homeimg {
   width: 250px;
   height: 600px;
   border-radius: 10px;
@@ -29,7 +31,7 @@ img {
 }
 
 .box:hover img {
-  opacity: 0.4;
+  opacity: 0;
   border-radius: 10px;
   transform: scale(1.02);
 }
@@ -59,6 +61,7 @@ img {
   visibility: hidden;
   margin-top: -350px;
   margin-left: 20px;
+  font-family: "air";
 }
 
 .title2 {
@@ -68,6 +71,7 @@ img {
   visibility: hidden;
   margin-top: -350px;
   margin-left: 30px;
+  font-family: "air";
 }
 .title3 {
   color: rgb(29, 29, 29);
@@ -76,6 +80,7 @@ img {
   visibility: hidden;
   margin-top: -350px;
   margin-left: 50px;
+  font-family: "air";
 }
 
 .title4 {
@@ -84,6 +89,7 @@ img {
   font-size: 25px;
   visibility: hidden;
   margin-top: -350px;
+  font-family: "air";
 }
 
 .title5 {
@@ -93,4 +99,5 @@ img {
   visibility: hidden;
   margin-top: -350px;
   margin-left: 70px;
+  font-family: "air";
 }

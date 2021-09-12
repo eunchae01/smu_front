@@ -18,7 +18,8 @@ function Ograph(){
     return(
         <div>
 
-        <VictoryBar horizontal data={data} x="vacationSpot" y="vote" width='250' height='10' />
+        <VictoryBar horizontal data={data} x="vacationSpot" y="vote" width='250' height='10' style={{data: { fill: "#f0abbc" }
+    }}/>
 
         </div>
     );

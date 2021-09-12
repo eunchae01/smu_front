@@ -1,22 +1,8 @@
-.champBox {
-  width: 750px;
-  height: 500px;
-  background-color: lightblue;
-  position: absolute;
-  margin-top: 300px;
-  margin-left: 7%;
-}
-
-.champInput {
-  margin-left: 15%;
-}
-
 /* 검색창 */
 .cpSearch {
-  margin-top: 300px;
-  margin-left: 60%;
-  position: absolute;
   background-color: lightgray;
+  padding-left: 625px;
+  padding-bottom: 55px;
 }
 .cpInput {
   width: 400px;
@@ -27,6 +13,7 @@
   color: rgb(49, 49, 49);
   font-weight: bold;
   border-radius: 25px;
+  margin-top: 75px;
 }
 
 input:focus {
@@ -42,4 +29,43 @@ input:focus {
   color: white;
   margin-left: 20px;
   cursor: pointer;
+  font-family: "paybooc";
+}
+
+.backPic {
+  background-color: lightgray;
+  padding-bottom: 50px;
+  float: left;
+  width: 1705px;
+}
+
+.champBox {
+  width: 675px;
+  height: 500px;
+  background-color: #f9f9fa;
+  margin-left: 7%;
+  overflow-y: scroll;
+  padding-left: 50px;
+  float: left;
+  border-radius: 10px;
+  /* margin-left: 10px; */
+}
+
+.champPic {
+  width: 150px;
+  height: 150px;
+  background-color: #f9f9fa;
+  float: left;
+  margin-top: 50px;
+  margin-left: 300px;
+  border-radius: 15px;
+}
+
+.champRate {
+  width: 450px;
+  height: 200px;
+  background-color: white;
+  float: left;
+  margin-top: 50px;
+  margin-left: 150px;
 }
