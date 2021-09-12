@@ -2,7 +2,6 @@
   "name": "project1",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8080",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -36,6 +35,7 @@
       "react-app/jest"
     ]
   },
+  "proxy": "https://blog.galbimandudev.com",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -49,6 +49,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.0"
+    "gh-pages": "^3.2.3"
   }
 }
