@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import ChampionElement from './ChampionElement';
-import ChampionGrapList from '../Graphs/ChampionGrapList';
+
 
 const ChampionList = ({ chamipons, championName, onClick }) => {
     const [championList, setChampionList] = useState([]);

@@ -1,14 +1,82 @@
+.comContainer {
+  background-color: lightgray;
+  padding-bottom: 590px;
+  padding-top: 75px;
+}
+
 .comBtn {
-  position: absolute;
-  margin-top: 250px;
   margin-left: 7%;
 }
 
 .comBox {
-  width: 750px;
+  width: 700px;
   height: 500px;
-  background-color: lightblue;
-  position: absolute;
-  margin-top: 300px;
+  background-color: #f9f9f9;
   margin-left: 7%;
+  float: left;
+  overflow-y: scroll;
+  padding-left: 50px;
+  border-radius: 10px;
+}
+
+#line:focus {
+  background-color: #144e88;
+}
+
+#hanta:focus {
+  background-color: #144e88;
+}
+
+.outcome {
+  width: 700px;
+  height: 500px;
+  background-color: #f9f9f9;
+  display: flex;
+  float: left;
+  border-radius: 10px;
+}
+
+.outP {
+  background-color: #f9f9f9;
+  width: 50px;
+  color: #f9f9f9;
+}
+
+.box1 {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  margin-top: 175px;
+  /* margin-left: 25px; */
+  border-radius: 10px;
+  float: left;
+}
+
+.box2 {
+  width: 425px;
+  height: 400px;
+  background-color: wheat;
+  overflow-y: scroll;
+  margin-left: 175px;
+  float: left;
+  margin-top: -275px;
+}
+
+.reBox {
+  width: 130px;
+  height: 130px;
+  background-color: #f9f9f9;
+  float: left;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.reRate {
+  background-color: #f9f9f9;
+  margin: 5px;
+  width: 100px;
+  height: 75px;
+  float: left;
+  text-align: center;
+  margin-top: 60px;
 }

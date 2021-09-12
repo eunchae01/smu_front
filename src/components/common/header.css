@@ -7,9 +7,10 @@
 }
 
 .head h1 {
-  padding-bottom: 5%;
-  padding: 5%;
+  margin-top: 75px;
+  /* padding: 5%; */
   font-size: 80px;
   width: 90%;
   padding-left: 30%;
+  font-family: "air";
 }

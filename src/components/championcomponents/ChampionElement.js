@@ -4,6 +4,7 @@ const ChampionElement = ({ imageUrl, name, id, onClick }) => {
     return (
         <div width='100px' height='100px'>
             <img
+                className='getimg'
                 src={imageUrl}
                 height='280'
                 width='180'
