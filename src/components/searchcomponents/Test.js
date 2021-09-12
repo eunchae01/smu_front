@@ -2,9 +2,10 @@ import React, { useState, useRef, useEffect } from "react";
 import { Chart, registerables } from "chart.js";
 import ChampionRate from "../Graphs/ChampionRate";
 import axios from "axios";
+import { Line } from "react-chartjs-2";
 
 function Test({ id }) {
-  const [ratedata, setRateData] = useState([]);
+  const [rate, setRateData] = useState([]);
 
   useEffect(() => {
     console.log("champion ID >>>> ", id);
@@ -41,7 +42,21 @@ function Test({ id }) {
 
   return (
     <div>
-      <ChampionRate rate={ratedata} id={id} />
+      <Line
+        width="450"
+        height="200"
+        data={{
+          labels: ["10-20", "20-30", "30-40", "40-"],
+          datasets: [
+            {
+              label: "Rate graph",
+              data: rate,
+              fill: false,
+              borderColor: "cornflowerblue",
+            },
+          ],
+        }}
+      />
     </div>
   );
 }
