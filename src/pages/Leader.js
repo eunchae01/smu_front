@@ -1,5 +1,6 @@
 import {React, useState, useRef} from 'react';
 import CreateUser from './CreateUser';
+import CreateUser2 from './CreateUser2';
 import './leader.css';
 import UserList from './UserList';
 
@@ -64,10 +65,10 @@ function Leader(){
                 <p className='modalT'>인증번호를 입력해주세요.</p>
                 <input className='modalB' placeholder='인증번호'></input>
                 <button className='selectB'>확인</button>
-                {/* <p className='modalT'>소환사이름을 입력해주세요.</p>
-                <input className='modalB' placeholder='소환사이름' ></input>
-                
+                <p className='modalT'>소환사이름을 입력해주세요.</p>
+                {/* <input className='modalB' placeholder='소환사이름' ></input>
                 <button className='selectB'>등록</button> */}
+                <CreateUser2 username={username} onChange={onChange} onCreate={onCreate}></CreateUser2>
 
                 <div className='close-wraper'>
                     <button id='close' onClick={closeModal}>닫기</button>
