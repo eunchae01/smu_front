@@ -2,9 +2,8 @@ import React, { useState, useEffect, useCallback, createContext } from "react";
 import "./champion.css";
 import ChampionList from "../components/championcomponents/ChampionList";
 import axios from "axios";
-import ChampionGrapList from "../components/Graphs/ChampionGrapList";
+
 import Test from "../components/searchcomponents/Test";
-import OutCome from "../components/complex/OutCome";
 
 export const Select = createContext("");
 function Chamipon() {
