@@ -6,14 +6,22 @@ import ChampionList from "../championcomponents/ChampionList";
 import Itembox from "./Itembox";
 import styled from "styled-components";
 export const Select = createContext("");
-
+const ChampionBox = styled.div`
+  width: 640px;
+  height: 500px;
+  background-color: skyblue;
+  overflow-y: scroll;
+  margin-left: 200px;
+  margin-right: 10px;
+  padding-left: 30px;
+`;
 const Div = styled.div`
   display: flex;
 `;
 
 function Item() {
   const [champions, setChampions] = useState([]);
-  const [chamiponNumber, setChampionNumber] = useState([]);
+  const [chamiponNumber, setChampionNumber] = useState(0);
   const [championName, setchampionName] = useState("");
   const [isClicked, setClicked] = useState(0);
   const [getData, setGetData] = useState(false);
@@ -54,16 +62,21 @@ function Item() {
         </button>
       </div>
       <Div>
-        <div className="champbox">
+        <ChampionBox>
           <ChampionList
             chamipons={champions}
             championName={championName}
             onClick={onClick}
           />
-        </div>
-        <div>
-          <Itembox chamiponNumber={chamiponNumber} />
-        </div>
+        </ChampionBox>
+
+        {chamiponNumber === 0 ? (
+          ""
+        ) : (
+          <div>
+            <Itembox chamiponNumber={chamiponNumber} />
+          </div>
+        )}
       </Div>
     </div>
   );

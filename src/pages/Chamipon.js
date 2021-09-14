@@ -2,8 +2,25 @@ import React, { useState, useEffect, useCallback, createContext } from "react";
 import "./champion.css";
 import ChampionList from "../components/championcomponents/ChampionList";
 import axios from "axios";
-
+import styled from "styled-components";
 import Test from "../components/searchcomponents/Test";
+
+const ChampionBox = styled.div`
+  width: 640px;
+  height: 500px;
+  background-color: skyblue;
+  overflow-y: scroll;
+  margin-left: 200px;
+  padding-left: 30px;
+`;
+
+const RateBox = styled.div`
+  width: 640px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+`;
 
 export const Select = createContext("");
 function Chamipon() {
@@ -52,19 +69,23 @@ function Chamipon() {
       </div>
 
       <div className="backPic">
-        <div className="champBox">
+        <ChampionBox>
           <ChampionList
             chamipons={champions}
             championName={championName}
             onClick={onClick}
-            className="championBox"
           />
-        </div>
-
-        <img className="champPic" src={imageUrl} />
-        <div className="champRate">
-          <Test id={isClicked} />
-        </div>
+        </ChampionBox>
+        {imageUrl === "" ? (
+          ""
+        ) : (
+          <RateBox>
+            <div style={{ padding: "10px" }}>
+              <img src={imageUrl} />
+            </div>
+            <Test id={isClicked} />
+          </RateBox>
+        )}
       </div>
     </div>
   );

@@ -42,8 +42,6 @@ input:focus {
 }
 
 .champBox {
-  width: 675px;
-  height: 500px;
   background-color: #f9f9fa;
   margin-left: 7%;
   overflow-y: scroll;
